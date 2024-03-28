@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: url('https://www.shutterstock.com/shutterstock/photos/1171476943/display_1500/stock-photo-gold-glitter-vintage-lights-texture-christmas-abstract-background-1171476943.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            margin: 0;
+            padding: 0;
+            color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        form {
+            max-width: 400px;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+        }
+
+        h3 {
+            text-align: center;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ffffff;
+            border-radius: 5px;
+            box-sizing: border-box;
+            background-color: rgba(255, 255, 255, 0.1);
+            color: #ffffff;
+        }
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #007bff;
+            color: #ffffff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s, box-shadow 0.3s; /* Added box-shadow transition */
+        }
+
+        button:hover {
+            background-color: #0056b3;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+        }
+
+    </style>
+</head>
+<body>
+    <form method="POST" action="">
+        <label for="" >username:</label>
+        <input name="username" type="text"><br>
+        <label for="">Mobile:</label>
+        <input name="mobile" type="text"><br>
+        <label for="">Address:</label>
+        <input name="address" type="text"><br>
+        <label for="">Email:</label>
+        <input name="email" type="text"><br>
+        <label for="">password:</label>
+        <input name="password" type="text"><br>
+        <button>submit</button>
+    </form>
+</body>
+</html>
